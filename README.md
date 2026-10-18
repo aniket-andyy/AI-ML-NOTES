@@ -26,18 +26,122 @@ A growing knowledge base for learning and exploring AI/ML technologies. Every no
 
 The journey covers: **Python → Mathematics → Machine Learning → Deep Learning → GenAI → Agentic AI → PostgreSQL → Evals → LLMs → MLOps → Docker → Kubernetes → Model Deployment → Cloud Computing**
 
-## 🗺️ Learning Roadmap
+## 🗺️ 12-Month Roadmap: Chapter-wise
+
+> Roadmap by **Aniket Sharma**. Six phases, 18 chapters each. Expand a phase to see its chapters.
 
 ```mermaid
 flowchart LR
-    A[Python & Math] --> B[Machine Learning]
-    B --> C[Deep Learning]
-    C --> D[GenAI & LLMs]
-    D --> E[Agentic AI]
-    E --> F[Evals]
-    F --> G[MLOps & Deployment]
-    G --> H[Docker, K8s & Cloud]
+    P1["Phase 1<br/>Foundations<br/>M1-2"] --> P2["Phase 2<br/>Core ML<br/>M3-4"]
+    P2 --> P3["Phase 3<br/>Deep Learning<br/>M5-6"]
+    P3 --> P4["Phase 4<br/>GenAI, LLMs & RAG<br/>M7-8"]
+    P4 --> P5["Phase 5<br/>MLOps<br/>M9-10"]
+    P5 --> P6["Phase 6<br/>Portfolio & Career<br/>M11-12"]
 ```
+
+<details>
+<summary><b>🟢 Phase 1: Foundations (Months 1-2)</b></summary>
+
+| # | Chapter | # | Chapter |
+|---|---------|---|---------|
+| 1 | Introduction to Python | 10 | Pandas Advanced |
+| 2 | Python Basics | 11 | Data Cleaning with Pandas |
+| 3 | Data Structures in Python | 12 | Data Visualization with Matplotlib |
+| 4 | Functions & Modules | 13 | Linear Algebra (Matrices, Vectors) |
+| 5 | Object-Oriented Programming | 14 | Calculus (Basics) |
+| 6 | File Handling | 15 | Probability |
+| 7 | NumPy Basics | 16 | Statistics (Basics) |
+| 8 | NumPy Advanced | 17 | Git & GitHub Basics |
+| 9 | Pandas Basics | 18 | Jupyter Notebook |
+
+</details>
+
+<details>
+<summary><b>🔵 Phase 2: Core Machine Learning (Months 3-4)</b></summary>
+
+| # | Chapter | # | Chapter |
+|---|---------|---|---------|
+| 1 | What is Machine Learning? | 10 | Dimensionality Reduction (PCA) |
+| 2 | Types of Machine Learning | 11 | Model Evaluation Techniques |
+| 3 | Linear Regression | 12 | Confusion Matrix |
+| 4 | Logistic Regression | 13 | Precision, Recall & F1 Score |
+| 5 | Decision Trees | 14 | Bias-Variance Trade-off |
+| 6 | Support Vector Machines (SVM) | 15 | Cross Validation |
+| 7 | Naive Bayes | 16 | Hyperparameter Tuning |
+| 8 | K-Nearest Neighbors (KNN) | 17 | ML Project 1 |
+| 9 | Clustering: K-Means | 18 | ML Project 2 |
+
+</details>
+
+<details>
+<summary><b>🟣 Phase 3: Deep Learning & Advanced AI (Months 5-6)</b></summary>
+
+| # | Chapter | # | Chapter |
+|---|---------|---|---------|
+| 1 | Introduction to Neural Networks | 10 | Recurrent Neural Networks (RNN) |
+| 2 | Perceptron | 11 | LSTM Networks |
+| 3 | Activation Functions | 12 | Introduction to Transformers |
+| 4 | Feedforward Neural Networks | 13 | Natural Language Processing (NLP) |
+| 5 | Backpropagation | 14 | BERT Basics |
+| 6 | Gradient Descent | 15 | PyTorch Basics |
+| 7 | Overfitting & Regularization | 16 | Building Deep Learning Models |
+| 8 | Convolutional Neural Networks (CNN) | 17 | Deep Learning Project 1 |
+| 9 | Computer Vision with CNN | 18 | Deep Learning Project 2 |
+
+</details>
+
+<details>
+<summary><b>🟠 Phase 4: GenAI, LLMs & RAG (Months 7-8)</b></summary>
+
+| # | Chapter | # | Chapter |
+|---|---------|---|---------|
+| 1 | Introduction to Generative AI | 10 | Vector Databases (FAISS / Chroma) |
+| 2 | Large Language Models (LLMs) | 11 | Building RAG Applications |
+| 3 | Prompt Engineering Basics | 12 | Memory in AI Applications |
+| 4 | Advanced Prompt Engineering | 13 | Agents & Tools |
+| 5 | OpenAI API | 14 | Function Calling |
+| 6 | Anthropic API (Claude) | 15 | Evaluating LLM Applications |
+| 7 | Google Gemini API | 16 | LLM Project 1 |
+| 8 | LangChain Basics | 17 | LLM Project 2 |
+| 9 | Retrieval-Augmented Generation (RAG) | 18 | RAG Project (End to End) |
+
+</details>
+
+<details>
+<summary><b>🔴 Phase 5: MLOps & Production (Months 9-10)</b></summary>
+
+| # | Chapter | # | Chapter |
+|---|---------|---|---------|
+| 1 | What is MLOps? | 10 | MLflow Basics |
+| 2 | Model Deployment Overview | 11 | Experiment Tracking |
+| 3 | FastAPI Basics | 12 | Model Registry |
+| 4 | Flask Basics | 13 | Model Monitoring |
+| 5 | Building API for ML Models | 14 | Data Drift & Concept Drift |
+| 6 | Docker Basics | 15 | Cloud Platforms Overview (AWS/GCP/Azure) |
+| 7 | Dockerizing ML Applications | 16 | Deploying on Cloud |
+| 8 | Introduction to Kubernetes | 17 | MLOps Project 1 |
+| 9 | CI/CD for ML (GitHub Actions) | 18 | MLOps Project 2 |
+
+</details>
+
+<details>
+<summary><b>🟡 Phase 6: Portfolio & Career (Months 11-12)</b></summary>
+
+| # | Chapter | # | Chapter |
+|---|---------|---|---------|
+| 1 | End-to-End Project Planning | 10 | Mock Interviews: ML |
+| 2 | Building Real-World Projects | 11 | Explaining ML Projects |
+| 3 | Data Storytelling | 12 | Communication Skills |
+| 4 | GitHub Portfolio Setup | 13 | Freelancing with AI/ML |
+| 5 | Writing README.md | 14 | Open Source Contributions |
+| 6 | Kaggle Basics | 15 | Personal Branding (LinkedIn) |
+| 7 | Participating in Competitions | 16 | Career Roadmap Beyond 12 Months |
+| 8 | Resume for AI/ML Roles | 17 | Final Capstone Project |
+| 9 | System Design for ML Applications | 18 | Project Deployment & Hosting |
+
+</details>
+
+> 💡 **Pro tip:** Focus on building projects and understanding concepts deeply. **Consistency > Motivation.** Keep coding!
 
 ## 🧰 Topics Covered
 
@@ -56,15 +160,12 @@ flowchart LR
 
 ```text
 .
-├── 01-python-and-data/
-├── 02-machine-learning/
-├── 03-deep-learning/
-├── 04-genai-and-llms/
-├── 05-agentic-ai/
-├── 06-vector-db-and-embeddings/
-├── 07-evals/
-├── 08-mlops-docker-kubernetes/
-├── 09-cloud-and-deployment/
+├── phase-1-foundations/
+├── phase-2-core-ml/
+├── phase-3-deep-learning/
+├── phase-4-genai-llms-rag/
+├── phase-5-mlops-production/
+├── phase-6-portfolio-career/
 └── README.md
 ```
 
